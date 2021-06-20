@@ -21,7 +21,7 @@ class Profile extends React.Component {
 			const data = result;
 			if (data) {
 				this.setState({
-					avatarUrl: data.avatarUrl,
+					avatarUrl: data.avatar_url,
 					name: data.name,
 					login: data.login,
 					bio: data.bio,
